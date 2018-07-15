@@ -91,13 +91,10 @@ Now press `\q` to exit psql prompt. Now type `exit` and press enter to get out o
 sudo service postgresql start
 </pre>
 
-### Clone inzap-repo and setup project prerequisites
-Now clone your inzap-repo fork and then run:
+### Clone todo-rails and setup project prerequisites
+Now clone your todo-rails fork and then run:
 <pre>
-cd inzap-repo
-cp config/database_sample.yml config/database.yml
-cp config/secrets_sample.yml config/secrets.yml
-cp config/application_sample.yml config/application.yml
+cd todo-rails
 </pre>
 Now run:
 <pre>
